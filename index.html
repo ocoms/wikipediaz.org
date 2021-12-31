@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <style>
+        
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        #header {
+            position: relative;
+            height: 15vh;
+            width: 100vw;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            
+            background-color: black;
+            color: white;
+        }     
+
+        #targetdomain {
+            position: relative;
+            text-align: center;
+            font-size: calc(.55em + 2.2vw);
+            font-weight: 500;
+            font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        #contentTitle {
+            position: relative;
+            width: 90vw;
+            height: fit-content;
+            margin: auto;
+
+            font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+            font-size: calc(.55em + 2.2vw);
+            font-weight: 900;
+
+            padding-top: 10vh;
+        }
+
+        #content {
+            position: relative;
+            width: 90vw;
+            height: fit-content;
+            margin: auto;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: calc(.55em + 1.5vw);
+        }
+
+        #source, .links {
+            font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            text-decoration: none;
+            color:black;
+        }
+
+        #source:visited, .links:hover {
+            color: black;
+        }
+
+        #source:hover, .links:hover {
+            color: blue;
+        }
+
+        #button {
+            position: fixed;
+            width: 100vw;
+            height: 15vh;
+            min-height: 60px;
+            background-color: black;
+            color: white;
+            bottom: 0;
+            opacity: .9;
+        }
+
+        #button:hover {
+            height: 15.5vh;
+            opacity: 1;
+            transition: .4s;
+        }
+
+        #domain {
+            font-size:calc(.55em + 2vw);
+            font-weight:500;
+            font-family: 'Poiret One', Arial, Helvetica, sans-serif;
+            width: 100%;
+            height: 100%;
+            line-height: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #domain:hover {
+            font-size: calc(.6em + 2.1vw);
+            transition: .4s;
+        }
+
+        #footer {
+            position: relative;
+            width: 100vw;
+            height: 15vh;
+            padding-bottom: 15vh;
+            font-weight: 900;
+            font-size: calc(.55em + .7vw);
+
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            column-gap: calc(.6em + .5vw);
+            
+        }
+        
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Document</title>
+     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-67E7T3S3D4"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-67E7T3S3D4');
+
+</script>
+    
+</head>
+    
+<body>
+    <div id="header">
+        <p id="targetdomain">It looks like you mistyped the URL.</p>
+    </div>
+
+    <div id="contentTitle">
+    </div>
+
+    <div id="content">
+       <p id="text">
+           <!-- PASTE AD HERE -->
+       </p>
+       <a href="https://en.wikipedia.org/" id="source"></a>
+    </div>
+
+    <div id="footer">
+        <a href="about-contact.html" class="links">About</a>
+        <p>•</p>
+        <a href="about-contact.html" class="links">Contact</a>
+        <p>•</p>
+        <a href="privacy.html" class="links">Privacy</a>
+    </div>
+
+    <a id="continueto" style="text-decoration: none;" href="https://www.google.com/">
+        <div id="button" onclick="clickButton()">
+            <div id="domain">Continue to Site</div>
+        </div>
+    </a>
+  
+</body>
+
+<script src="load.js"></script>
+
+</html>
